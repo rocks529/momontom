@@ -1,0 +1,36 @@
+body{
+    background-color: #3498db
+}
+
+h1{
+    color: white;
+    font-family: "Times New Roman";
+}
+
+.clicked {
+    color: #e74c3c;
+    font-family: "Helvetica";
+    text-decoration: underline;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.form,
+.greeting {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
