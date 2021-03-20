@@ -25,6 +25,13 @@ h1{
 
 }
 
+.center-align{
+    position: absolute;
+    left: 45%;
+    width: 25%;
+}
+
+
 .js-weather{
     color: white;
     text-align: right;
@@ -42,6 +49,8 @@ h1{
 
 .js-list{
     color: white;
+    list-style-type: none;
+    text-align: left;
 }
 
 .form,
